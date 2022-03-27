@@ -1,0 +1,41 @@
+/* CSS HEX */
+--sunset-orange: #fb433b;
+--alabaster: #fcfcfc;
+--cod-gray: #1b1b1b;
+--sunset-orange: #fc4c3c;
+--cocoa-bean: #582424;
+--irish-coffee: #682c24;
+--sunset-orange: #fc4e44;
+--stiletto: #8f312c;
+--cork: #3c241c;
+
+
+/* SCSS HEX */
+$sunset-orange: #fb433b;
+$alabaster: #fcfcfc;
+$cod-gray: #1b1b1b;
+$sunset-orange: #fc4c3c;
+$cocoa-bean: #582424;
+$irish-coffee: #682c24;
+$sunset-orange: #fc4e44;
+$stiletto: #8f312c;
+$cork: #3c241c;
+
+
+/* SCSS RGB */
+--sunset-orange: rgba(251,67,59,1);
+--alabaster: rgba(252,252,252,1);
+--cod-gray: rgba(27,27,27,1);
+--sunset-orange: rgba(252,76,60,1);
+--cocoa-bean: rgba(88,36,36,1);
+--irish-coffee: rgba(104,44,36,1);
+--sunset-orange: rgba(252,78,68,1);
+--stiletto: rgba(143,49,44,1);
+--cork: rgba(60,36,28,1);
+
+---------------------------------------------------
+/* CSV */
+fb433b,fcfcfc,1b1b1b,fc4c3c,582424,682c24,fc4e44,8f312c,3c241c
+
+/* Array */
+["fb433b","fcfcfc","1b1b1b","fc4c3c","582424","682c24","fc4e44","8f312c","3c241c"]

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Karo Startup</title>
+    <link rel="shortcut icon" href="tt.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Oswald:wght@500&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@500&family=Ramaraja&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+                <img src="icon.jpg" id="new2" alt="Failed to load" width="100" height="60">
+            </li>
+            <li class="items"><a href="Jobbies.html">Classroom</a></li>
+            <li class="items"><a href="about.html">About</a></li>
+            <li class="items"><a href="contactus.html">Contact</a></li>
+            <li class="items"><a href="login.html">Login</a></li>
+            <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $('.btn').click(function () {
+                $('.items').toggleClass("show");
+                $('ul li').toggleClass("hide");
+            });
+        });
+    </script>
+    <section class="gyan">
+        <div class="gyanmain">
+            <p class="gyanbig">Ready to be a <strong>#Trendsetter</strong> in your college?</p>
+            <p class="gyansmall">Join us and be a part of Karo Startup upgrowing family.</p>
+            <hr>
+            <p class="gyanshort">The applications for the Campus Ambassador are still live.<br> Register now and
+                represent
+                us in your college</p>
+            <button class="btns"><a href="register.html" target="_blank" id="hasg"> Register Now</a></button>
+        </div>
+
+        <div class="pics">
+            <img src="classroom.jpg" id="classr" alt="img not found">
+            <img src="Girl.jpg" id="girl" alt="img not found">
+        </div>
+
+    </section>
+    <section class="social">
+        <div class="soc">
+            <a href="https://www.facebook.com/karostartup/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/karo_startup"  target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/karo_startup/?hl=en"  target="_blank" class="fa fa-instagram"></a>
+        </div>
+    </section>
+</body>
+
+</html>
